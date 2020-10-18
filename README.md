@@ -47,7 +47,8 @@ jawab :
 jawab :
 dengan menggunakan filter http.authbasic
 
-(photo)
+![no4](4.png)
+
 
 
 ### soal 5
