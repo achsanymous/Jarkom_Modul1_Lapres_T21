@@ -128,6 +128,11 @@ dan simpan file menggunakan follow -> tcp stream
 Filter sehingga wireshark hanya mengambil paket yang mengandung port 21!
 
 ## soal 12
+
+Filter sehingga wireshark hanya mengambil paket yang berasal dari port 80!
+
+jawab : 
+
 ## soal 13
 ## soal 14
 ## soal 15
