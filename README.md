@@ -83,9 +83,52 @@ buka anwer.zip dengan kunci dari zipkey
 
 ### soal 7
 
+Ada 500 file zip yang disimpan ke FTP Server dengan nama 1.zip, 2.zip, ..., 500.zip. Salah satunya berisi pdf yang berisi puisi. Simpan dan Buka file pdf tersebut.
+Your Super Mega Ultra Rare Hint = nama pdf-nya "Yes.pdf"
 
+jawab:
+melakukan filter `ftp-data contains Yes.pdf` lalu mensavenya dengan menggunakan follow ->tcp stream dengan mengubah ascii menjadi raw
+
+(photo)
+
+
+
+### soal 8
+
+Cari objek apa saja yang didownload (RETR) dari koneksi FTP dengan Microsoft FTP Service!
+
+jawab :
+ dengan menggunakan filter `ftp.request && ip.addr == 198.246.117.106`
+ 
+ (photo)
+ 
+ 
+ ### soal 9
+ 
+ Cari username dan password ketika login FTP pada localhost!
+ 
+ jawab :
+ dengan menggunakan filter `ftp` akan terlihat user dan pass 
+ 
+ (photo)
+
+
+### soal 10
+
+jawab : 
+menggunakan fungsi find dan memasukkan clue(25 50 44 46) dengan mengganti tipe find menjadi hex value
+dan simpan file menggunakan follow -> tcp stream 
 
 
  
+## Capture Filter
 
+## soal 11
+
+Filter sehingga wireshark hanya mengambil paket yang mengandung port 21!
+
+## soal 12
+## soal 13
+## soal 14
+## soal 15
  
