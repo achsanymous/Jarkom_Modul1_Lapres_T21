@@ -134,6 +134,8 @@ Filter sehingga wireshark hanya mengambil paket yang mengandung port 21!
 jawab :
 dengan menggunakan filter `src port 21`
 
+(photo)
+
 ## soal 12
 
 Filter sehingga wireshark hanya mengambil paket yang berasal dari port 80!
@@ -141,12 +143,18 @@ Filter sehingga wireshark hanya mengambil paket yang berasal dari port 80!
 jawab : 
 dengan menggunakan filter `src port 80`
 
+(photo)
+
 ## soal 13
 
 Filter sehingga wireshark hanya menampilkan paket yang menuju port 443!
 
 jawab :
 dengan menggunakan filter `dst port 443`
+
+(photo)
+
+
 ## soal 14
 
 Filter sehingga wireshark hanya mengambil paket yang berasal dari ip kalian!
@@ -154,12 +162,17 @@ Filter sehingga wireshark hanya mengambil paket yang berasal dari ip kalian!
 jawab :
 dengan menggunakan filter `src port 192.168.1.2` (ip saya)
 
+(photo)
+
+
 ## soal 15
 
 Filter sehingga wireshark hanya mengambil paket yang tujuannya ke monta.if.its.ac.id!
 
 jawab :
 dengan menggunakan filter `dst host monta.if.its.ac.id`
+
+(photo)
 
 
  
