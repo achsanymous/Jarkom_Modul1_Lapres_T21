@@ -119,6 +119,8 @@ jawab :
 menggunakan fungsi find dan memasukkan clue(25 50 44 46) dengan mengganti tipe find menjadi hex value
 dan simpan file menggunakan follow -> tcp stream 
 
+(photo10)
+
 
  
 ## Capture Filter
@@ -127,26 +129,35 @@ dan simpan file menggunakan follow -> tcp stream
 
 Filter sehingga wireshark hanya mengambil paket yang mengandung port 21!
 
+jawab :
+dengan menggunakan filter `src port 21`
+
 ## soal 12
 
 Filter sehingga wireshark hanya mengambil paket yang berasal dari port 80!
 
 jawab : 
+dengan menggunakan filter `src port 80`
 
 ## soal 13
 
 Filter sehingga wireshark hanya menampilkan paket yang menuju port 443!
 
 jawab :
+dengan menggunakan filter `dst port 443`
 ## soal 14
 
 Filter sehingga wireshark hanya mengambil paket yang berasal dari ip kalian!
 
 jawab :
+dengan menggunakan filter `src port 192.168.1.2` (ip saya)
 
 ## soal 15
 
 Filter sehingga wireshark hanya mengambil paket yang tujuannya ke monta.if.its.ac.id!
 
 jawab :
+dengan menggunakan filter `dst host monta.if.its.ac.id`
+
+
  
